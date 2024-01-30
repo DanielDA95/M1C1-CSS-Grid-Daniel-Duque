@@ -1,0 +1,108 @@
+.contenido{ 
+    width: 100%;
+}
+.titulo h1 {
+    width: auto;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.preguntas-respuestas {
+    width: 100%;
+    text-align: justify;
+}
+.preguntas-respuestas h5 {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.preguntas-respuestas h6 {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.preguntas-respuestas p {
+    margin-top: 2px;
+}
+
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: antiquewhite;
+    text-align: center;
+  }
+  
+  .espacio60 {
+    height: 60px;
+    width: 100%;
+  }
+  .gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+  }
+
+  .gridTwo > .amarillo {
+    background-color: yellow;
+  }
+  .gridTwo > .azul {
+    background-color: blue;
+  }
+  .gridTwo > .rojo {
+    background-color: red;
+  }
+
+  .gridThree {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 500px;
+    height: 300px;
+  }
+  .sub-uno {
+    background-color: aquamarine;
+  }
+  .sub-dos {
+    background-color: aqua;
+  }
+  .sub-dos img {
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+  }
+  .gridFour {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: green;
+  }
+  #id {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .gridFive {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: lightgreen;
+  }
+  .imagenes {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .imagenes img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+  .gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 100%;
+  }
+  
+  .google-font p {
+    font-family: 'Miltonian Tattoo', serif;
+    font-size: 2rem;
+  }
+ 

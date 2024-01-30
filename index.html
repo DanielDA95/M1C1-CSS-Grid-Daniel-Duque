@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint 1 Daniel Duque</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6c03e941ca.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <div class="contenido">
+        <div class="titulo">
+            <h1>Respuesta evaluación Checkpoint 1 Daniel Duque Agudelo</h1>
+        </div>
+        <div class="preguntas-respuestas">
+            <div class="pregunta">
+                <h5>Pregunta 1</h5><p>¿Cuáles son algunas de las cosas que hacen que SCSS sea diferente de CSS?</p>
+                <h6>Respuesta</h6><p>El Scss es un archivo SASS y es un preprocesador de codigo que ayuda a organizar mejor el codigo en css
+                     y evita las codigos repetitivos en las hojas de css;
+                    el SCSS se procesa directamente en el servidor y genera un archivo css para que el navegador lo pueda entender.
+                    Ejemplo. En scss se pueden crear variables, que en css se podria repetir varias veces en la hoja de estilo, 
+                    pero la variable ayuda para que no se repita este codigo. 
+                </p>
+            </div>
+            <div class="pregunta">
+                <h5>Pregunta 2</h5><p>¿Qué es una variable SCSS?</p>
+                <h6>Respuesta</h6><p>Una variable es un tipo de contenedor de codigo (informaicon), que se puede llamar desde cualquier parte del codigo en css
+                     para no reperir en ocaciones un mismo codigo en diferentes partes de la hoja de estilo, y por el contrario se use solo la variable, 
+                     dando a entender que este es el codigo que necesita para ese estilo. <br>
+                     Ejemplo de una varialble y su sintaxys, primero se usa el signo $ y se da el nombre a la variable, luego se nombra valor que se va a asignar, <br>
+                     ej: $color-subtitulos : #282828;<br>
+                     En el anterior ejemplo de variable se asigno el valor para que todos los titulos que se pongan en la pagina tenga un color gris. </p>
+            </div>
+            <div class="pregunta">
+                <h5>Pregunta 3</h5><p>¿Qué es un SCSS Mixin?</p>
+                <h6>Respuesta</h6><p>Un mixin es un conjunto de estilos agrupados que al igual que las variables se puede llamar desde cualquier 
+                    parte de la hoja de estilos y nos permite tener un comportamiento más dinamico y tambien tener unos estilos predeterminados para secciones
+                    de codigo que por ejemplo, necesiten un margen, tamaño de fuente, tipo de fuente y color iguales. Esto nos ahorra esa repetición de codigo en la 
+                    hoja de estilo. La sintaxis de un mixin tambien puede ser predeterminada. <br>
+                    Ejemplo: <br> @mixin contenido-preguntas-respuestas() { <br>
+                        $color-subtitulos; <br>
+                        background-color: Blue; <br>
+                        color: black; <br>
+                        margin-top: 25px; <br>
+                    }</p>
+            </div>
+            <div class="pregunta">
+                <h5>Pregunta 4</h5><p>¿Qué significa Unidad fraccionaria (fr) con CSS Grid?</p>
+                <h6>Respuesta</h6><p>La unidad fraccionaria es una forma de medicion en css, que permite dividir una cuadricula en columas o filas proporcionalmente,
+                    sin tener que recalcular el ancho o alto de estos elementos.
+                </p>
+            </div>
+        </div>
+        <div class="pactica">
+            <div class="titulo">
+                <h1>Desarrollo de la parte practica</h1>
+            </div>
+            <div class="gridOne">
+                <p>Hello world</p>
+                <p style="color: blue;">MY fantastic content</p>
+            </div>
+
+            <div class="espacio60"></div>
+
+            <div class="gridTwo">
+                <div class="amarillo">
+                    <p>Estoy</p>
+                </div>
+                <div class="azul">
+                    <p>Aprendiendo</p>
+                </div>
+                <div class="rojo">
+                    <p>Mucho</p>
+                </div>
+            </div>
+
+            <div class="espacio60"></div>
+
+            <div class="gridThree">
+                <div class="sub-uno">
+                    <p>Ejercicio practico 3</p>
+                </div>
+                <div class="sub-dos">
+                    <img src="images/ryan-heuer-5pbMJOnJV60-unsplash.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="espacio60"></div>
+
+            <div class="gridFour">
+                <div class="clase">
+                    <p>Ejercicio practico #4.</p>
+                </div>
+                <div id="id">
+                    <p>Subpunto 1 con id.</p>
+                    <p>Subpunto 2 con columnas</p>
+                </div>
+            </div>
+
+            <div class="espacio60"></div>
+
+            <div class="gridFive">
+                <div class="frase">
+                    <p>Ejercicio practico #4.</p>
+                </div>
+                <div class="imagenes">
+                    <img src="images/img 1.jpg" alt="img 1">
+                    <img src="images/img 2.jpg" alt="img 2">
+                </div>
+            </div>
+
+            <div class="espacio60"></div>
+
+            <div class="gridSix">
+                <div class="font-awesome" style="text-align: center;">
+                    <i class="fa-solid fa-wand-magic-sparkles" style="font-size: 4rem; vertical-align: middle;"></i>
+                </div>
+                <div class="google-font">
+                    <p>My awesome google font is applied here</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+
+</html>
